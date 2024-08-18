@@ -1,0 +1,18 @@
+{
+  "name": "open-in-safari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "bin": {
+    "open_in_safari": "open_in_safari.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pkg": "pkg . --targets macos-x64 --output open_in_safari"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg": "^5.8.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "com.junseok.openinsafari",
+  "description": "Open URL in Safari",
+  "path": "/Users/jangjunseok/Desktop/playground/open-in-safari/open_in_safari",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://elhffimcmppjlcmgjeafedbhoggdjpal/"]
+}
