@@ -1,3 +1,70 @@
-## open_in_safari chrome extension v1.0
+# Open in Safari Chrome Extension
 
-open same site easyly with right toggle -> click 'open in safari' button.
+현재 열려있는 웹사이트를 Safari 브라우저에서 쉽게 열 수 있게 해주는 크롬 확장 프로그램입니다.
+
+## 프로젝트 소개
+
+Open in Safari는 Chrome과 Safari 브라우저 간의 원활한 전환을 가능하게 하는 확장 프로그램입니다.
+
+- Safari 브라우저의 특정 기능이나 성능이 필요한 경우
+- 웹사이트 호환성 테스트가 필요한 경우
+- Chrome과 Safari 간의 브라우저 전환이 자주 필요한 경우
+
+## 기능
+
+- 현재 열려있는 웹사이트를 Safari 브라우저에서 즉시 열 수 있습니다
+- 우클릭 메뉴에서 간편하게 접근 가능
+- 단 한 번의 클릭으로 Safari 브라우저 전환
+
+## 설치 방법
+
+1. Chrome 웹 스토어에서 "Open in Safari" 확장 프로그램을 검색
+2. "Chrome에 추가" 버튼을 클릭하여 설치
+3. 설치 완료 후 브라우저 우측 상단에 확장 프로그램 아이콘이 표시됩니다
+
+## 사용 방법
+
+1. Safari에서 열고 싶은 웹사이트를 Chrome에서 열어둡니다
+2. 페이지에서 우클릭을 하여 컨텍스트 메뉴를 표시합니다
+3. "Open in Safari" 옵션을 클릭합니다
+4. 선택한 페이지가 Safari 브라우저에서 자동으로 열립니다
+
+## 시스템 요구사항
+
+- macOS 운영체제
+- Chrome 브라우저 최신 버전
+- Safari 브라우저 최신 버전
+
+## 버전 정보
+
+- 현재 버전: 1.0
+- 최초 릴리즈: 2024년
+
+## 라이선스
+
+MIT License
+
+## 개발자 정보
+
+이 확장 프로그램은 오픈 소스 프로젝트입니다. 버그 리포트나 기능 제안은 Issues 섹션에서 환영합니다.
+
+## 프로젝트 구조
+
+```
+open-in-safari/
+├── manifest.json          # 확장 프로그램의 메타데이터와 설정
+├── background.js          # 백그라운드 스크립트 (브라우저 이벤트 처리)
+├── open_in_safari.js      # 메인 기능 구현 스크립트
+├── icons/                 # 확장 프로그램 아이콘 이미지
+├── native-messaging/      # 네이티브 메시징 관련 파일들
+├── package.json           # 프로젝트 의존성 관리
+└── README.md              # 프로젝트 문서
+```
+
+### 주요 파일 설명
+
+- **manifest.json**: 확장 프로그램의 기본 설정을 정의합니다. 권한, 아이콘, 스크립트 등이 포함됩니다.
+- **background.js**: 브라우저 이벤트를 처리하는 백그라운드 스크립트입니다.
+- **open_in_safari.js**: Safari 브라우저로 페이지를 여는 핵심 기능이 구현된 스크립트입니다.
+- **native-messaging/**: Chrome과 네이티브 애플리케이션 간의 통신을 위한 설정 파일들이 포함되어 있습니다.
+- **icons/**: 확장 프로그램에서 사용되는 다양한 크기의 아이콘 이미지들이 저장되어 있습니다.
